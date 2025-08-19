@@ -1,0 +1,9 @@
+| Operator | Meaning     |
+| -------- | ----------- |
+| `<<`     | Left shift  |
+| `>>`     | Right shift |
+
+| Operator | Meaning                                     |
+| -------- | ------------------------------------------- |
+| `{}`     | Concatenation: `{a, b}` joins bits together |
+| `{n{a}}` | Replication: repeats `a` n times            |

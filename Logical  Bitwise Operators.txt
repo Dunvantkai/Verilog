@@ -1,0 +1,8 @@
+| Operator | Type        | Meaning                                        |                                                      |                                     |
+| -------- | ----------- | ---------------------------------------------- | ---------------------------------------------------- | ----------------------------------- |
+| `&`      | Bitwise AND | Each bit of the result is 1 if both bits are 1 |                                                      |                                     |
+| \`       | Bitwise OR  | Bitwise OR                                     | Each bit of the result is 1 if at least one bit is 1 |                                     |
+| `^`      | Bitwise XOR | Each bit is 1 if bits are different            |                                                      |                                     |
+| `~`      | Bitwise NOT | Inverts each bit (0→1, 1→0)                    |                                                      |                                     |
+| `&&`     | Logical AND | True if **both** operands are non-zero         |                                                      |                                     |
+| `!`      | Logical NOT | True if operand is zero                        |                                                      |                                     |

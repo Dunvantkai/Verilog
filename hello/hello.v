@@ -1,8 +1,8 @@
-// module hello (A, B);
+module hello (A, B);
 
-//     input A;
-//     output B;
+    input A;
+    output B;
 
-//     assign B = A;
+    assign B = A;
 
-// endmodule
+endmodule
