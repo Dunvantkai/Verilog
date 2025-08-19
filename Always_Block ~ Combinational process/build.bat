@@ -17,7 +17,7 @@ vvp !filename!_tb.vvp
 gtkwave !filename!_tb.vcd
 
 endlocal
-pause
+@REM pause
 
 @REM iverilog -o and_tb.vvp and_tb.v
 @REM vvp and_tb.vvp

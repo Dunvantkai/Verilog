@@ -25,6 +25,5 @@ module tb_example_and_gate;
         $display("A=%b B=%b Y=%b", A, B, Y);
 
         $display("Test complete");
-        $finish;
         end
 endmodule
