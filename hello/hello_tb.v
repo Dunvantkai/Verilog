@@ -2,18 +2,26 @@
 `include "hello.v"
 
 module hello_tb;
+
 reg A;
 wire B;
-hello uut (A, B);
+
+hello uut(A, B);
+
 initial begin
+
     $dumpfile("hello.tb.vcd");
     $dumpvars(0, hello_tb);
+
     A = 0;
     #20;
-    A =1;
+
+    A = 1;
     #20;
-    A=0;
+
+    A = 0;
     #20;
-    $DISPLAY("Test complete");
+
+    $display("Test complete");
 end
-ENDMODULE
+endmodule
