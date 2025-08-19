@@ -1,0 +1,36 @@
+| Operator | Meaning     |
+| -------- | ----------- |
+| `<<`     | Left shift  |
+| `>>`     | Right shift |
+
+| Operator | Meaning                                     |
+| -------- | ------------------------------------------- |
+| `{}`     | Concatenation: `{a, b}` joins bits together |
+| `{n{a}}` | Replication: repeats `a` n times            |
+
+1'b1 = size'base-wide
+---base---
+'b = binary
+'d = decimal
+'h = hexadecimal
+'o = octal
+
+Arithmetic Operators
+
+| Operator | Meaning             |
+| -------- | ------------------- |
+| `+`      | Addition            |
+| `-`      | Subtraction         |
+| `*`      | Multiplication      |
+| `/`      | Division            |
+| `%`      | Modulus (remainder) |
+
+Relational  Comparison Operators
+| Operator | Meaning                  |
+| -------- | ------------------------ |
+| `==`     | Equal to                 |
+| `!=`     | Not equal to             |
+| `>`      | Greater than             |
+| `<`      | Less than                |
+| `>=`     | Greater than or equal to |
+| `<=`     | Less than or equal to    |
